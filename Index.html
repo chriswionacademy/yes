@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRIS S. WION ACADEMY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>CHRIS S. WON ACADEMY</h1>
+            <p>Established on May 26, 2019 | Rehab Community, Paynesville City</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#student-application">Student Application</a></li>
+            <li><a href="#teacher-application">Teacher Application</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <h3>Vision</h3>
+        <p>To empower the youth of Liberia through holistic education.</p>
+        <h3>Objectives</h3>
+        <ul>
+            <li>Deliver high-quality education.</li>
+            <li>Instill a sense of social responsibility.</li>
+            <li>Support unique talents and interests.</li>
+        </ul>
+        <h3>Goals</h3>
+        <ol>
+            <li>Academic Excellence</li>
+            <li>Character Development</li>
+            <li>Community Engagement</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@cswacademy.edu.lr">info@cswacademy.edu.lr</a></p>
+        <p>Phone: +231 77 123 4567</p>
+        <p>WhatsApp: +231 77 765 4321</p>
+        <p>Follow us on: 
+            <a href="https://facebook.com/cswacademy">Facebook</a>, 
+            <a href="https://twitter.com/cswacademy">Twitter</a>, 
+            <a href="https://instagram.com/cswacademy">Instagram</a>, 
+            <a href="https://youtube.com/cswacademy">YouTube</a>
+        </p>
+    </section>
+
+    <section id="student-application">
+        <h2>Student Application Form</h2>
+        <form>
+            <h3>Personal Information</h3>
+            <label>First Name: <input type="text" name="firstName" required></label>
+            <label>Middle Name: <input type="text" name="middleName"></label>
+            <label>Last Name: <input type="text" name="lastName" required></label>
+            <label>Gender: <select name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select></label>
+            <label>Date of Birth: <input type="date" name="dob" required></label>
+            <label>Place of Birth: <input type="text" name="placeOfBirth" required></label>
+            <label>Home Address: <input type="text" name="homeAddress" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Contact Number: <input type="tel" name="contactNumber" required></label>
+            <label>Nationality: <input type="text" name="nationality" required></label>
+            <label>County of Origin: <input type="text" name="countyOfOrigin" required></label>
+            <label>Religion: <input type="text" name="religion" required></label>
+            <label>Political Affiliation: <input type="text" name="politicalAffiliation"></label>
+            <label>Occupation: <input type="text" name="occupation"></label>
+            <label>Talent: <input type="text" name="talent"></label>
+
+            <h3>Document Uploads</h3>
+            <label>Transcript: <input type="file" name="transcript" required></label>
+            <label>Grade Report: <input type="file" name="gradeReport" required></label>
+            <label>Letter of Recommendation: <input type="file" name="recommendation" required></label>
+            <label>Health Certificate: <input type="file" name="healthCertificate" required></label>
+
+            <label>Why do you want to enroll? (150 words): <textarea name="enrollmentReason" required></textarea></label>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <section id="teacher-application">
+        <h2>Teacher Application Form</h2>
+        <form>
+            <h3>Personal Information</h3>
+            <label>First Name: <input type="text" name="firstName" required></label>
+            <label>Middle Name: <input type="text" name="middleName"></label>
+            <label>Last Name: <input type="text" name="lastName" required></label>
+            <label>Gender: <select name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select></label>
+            <label>Date of Birth: <input type="date" name="dob" required></label>
+            <label>Place of Birth: <input type="text" name="placeOfBirth" required></label>
+            <label>Home Address: <input type="text" name="homeAddress" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Contact Number: <input type="tel" name="contactNumber" required></label>
+            <label>Nationality: <input type="text" name="nationality" required></label>
+            <label>County of Origin: <input type="text" name="countyOfOrigin" required></label>
+            <label>Marital Status: <select name="maritalStatus" required>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select></label>
+            <label>Religion: <input type="text" name="religion" required></label>
+            <label>Political Affiliation: <input type="text" name="politicalAffiliation"></label>
+            <label>Occupation: <input type="text" name="occupation"></label>
+            <label>Talent: <input type="text" name="talent"></label>
+
+            <h3>Document Uploads</h3>
+            <label>Degree: <input type="file" name="degree" required></label>
+            <label>CV: <input type="file" name="cv" required></label>
+            <label>Letter of Recommendation: <input type="file" name="recommendation" required></label>
+            <label>Health Certificate: <input type="file" name="healthCertificate" required></label>
+
+            <label>Why do you want to teach in our school? (250 words): <textarea name="teachingReason" required></textarea></label>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chris S. Wion Academy. All Rights Reserved.</p>
+        <p><a href="#student-login">Student Login Portal</a> | <a href="#elearning">E-Learning Platform</a> | <a href="mailto:portal@cswacademy.edu.lr">Portal Email</a></p>
+    </footer>
+</body>
+</html>
